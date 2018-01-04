@@ -29,3 +29,9 @@ include /usr/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/share/doc/task/rc/solarized-light-256.theme
 #include /usr/share/doc/task/rc/no-color.theme
 
+taskd.certificate=~/Nextcloud/private/intheam-private.certificate.pem
+taskd.key=~/Nextcloud/private/intheam-private.key.pem
+taskd.ca=~/Nextcloud/private/intheam-ca.cert.pem
+taskd.server=taskwarrior.inthe.am:53589
+taskd.credentials=inthe_am/alerque/5a52b1ce-94fa-45e9-9fe4-775906b4f702
+taskd.trust=ignore hostname
